@@ -174,3 +174,6 @@ profdata/
 
 # Environment / secrets
 .env
+
+# markdowns
+exercises.md
