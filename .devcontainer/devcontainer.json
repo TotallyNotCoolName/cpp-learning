@@ -1,0 +1,20 @@
+{
+  "name": "cpp-dev",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/llvm:16": {},
+    "ghcr.io/devcontainers/features/clangd:1": {},
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["llvm-vs-code-extensions.vscode-clangd"],
+    },
+    "zed": {
+      "extensions": ["clangd", "clang-format"],
+      "settings": {
+        "languages": { "C++": { "language_servers": ["clangd"] } },
+      },
+    },
+  },
+  "onCreateCommand": "apt-get update && apt-get install -y g++-12 clang-format cmake && update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 100",
+}
