@@ -1,0 +1,176 @@
+# ---------------------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------------------
+# Files that can appear when working on a Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Icon must end in two \r
+Icon
+
+# Thumbnails
+*/*/.Spotlight-V100
+*/*/.Trashes
+
+# Directories potentially created by Spotlight
+.AppleDesktop
+
+# ---------------------------------------------------------------------------
+# C++ / C build artifacts
+# ---------------------------------------------------------------------------
+# Compiled object/binary output
+*.o
+*.obj
+*.lo
+*.la
+*.gch
+*.gch.*
+*.so
+*.so.*
+*.dll
+*.dylib
+*.a
+*.lib
+*.exp
+*.out
+*.exe
+*.app
+
+# Precompiled header and dependency files
+*.pch
+*.gch
+*.d
+*.dep
+*.dSYM
+*/*.dSYM/
+
+# Linker / build scripts
+*.ilk
+*.idb
+*.pdb
+
+# ---------------------------------------------------------------------------
+# CMake
+# ---------------------------------------------------------------------------
+build/
+cmake-build-*/
+cmake-build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+CMakeLists.txt.user
+CMakeLists.txt*~
+*.cmake
+*.cmake.in
+*.ninja
+*.ninja.*
+.ninja_deps
+.ninja_log
+.ninja_log.tmp
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile2
+dashboards/
+
+# ---------------------------------------------------------------------------
+# Make / autotools
+# ---------------------------------------------------------------------------
+*.depend
+*.mk
+*.mk.a
+deps/
+obj/
+
+# ---------------------------------------------------------------------------
+# MSBuild / Visual Studio
+# ---------------------------------------------------------------------------
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+__p/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio workspace files
+*.user
+*.suo
+*.vspx
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+
+# Guidance Automation cache
+.ntvs_analysis.dat
+
+# ---------------------------------------------------------------------------
+# Xcode
+# ---------------------------------------------------------------------------
+# Xcode user/workspace files
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.xcuserdatad/
+*.xcscmdata/
+*.xcscmstates
+
+# Xcode build products
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+
+# ---------------------------------------------------------------------------
+# Coverage / sanitizer / test runners
+# ---------------------------------------------------------------------------
+*.gcda
+*.gcno
+*.gcov
+*.gcov*
+*.lcov
+coverage/
+profdata/
+*.profdata
+
+# ---------------------------------------------------------------------------
+# Logs / misc
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# Editors / IDEs
+# ---------------------------------------------------------------------------
+# Clion / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# KDevelop
+.kdev4/
+
+# ---------------------------------------------------------------------------
+# Miscellaneous
+# ---------------------------------------------------------------------------
+# Temporary / backup files
+*~
+*.bak
+*.tmp
+
+# Environment / secrets
+.env
